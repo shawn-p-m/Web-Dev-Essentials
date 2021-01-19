@@ -12,14 +12,15 @@
         - Many Moving Parts, many languages and systems involved
     - Advantages of Web Dev
         - Biggest Job Market in Computer Science
-        - Device/OS agnostic -> A web app can run on a smart phone, a fridge, a Desktop, a tablet all from one code base
+        - Device/OS agnostic &rightarrow; A web app can run on a smart phone, a fridge, a Desktop, a tablet all from one code base
         - Gives Coders a better understanding of Cyber Security when they understand Networks and the Internet
 
 
-- Project Structure of a FrontEnd Project
+- Project Structure of a FrontEnd Project.
+    - Naming Conventions &rightarrow; packages are kebab-case, Component folders are PascalCase, files are camelCase (may vary from team to team)
     - The root folder
         - The src folder
-            - Component based WebApp
+            - Page/Component based WebApps
         - The public/static folder
         - The dist/build folder
         - Config files
@@ -27,10 +28,10 @@
 - Perfect Web Dev VSCode Setup
     - Essential Extensions
         - Epic Colour Theme to match your personality
-        - Prettier (caveat, you need to ask it to ignore JS and TS in VSCode Settings)
-        - ESLint 
-        - Auto Rename Tag
-        - Bracket Pair Colorizer
+        - Prettier &rightarrow; Auto formatting and syntax (caveat, you need to ask it to ignore JS and TS in VSCode Settings)
+        - ESLint &rightarrow; Syntactical and code structure enforcement
+        - Auto Rename Tag &rightarrow; For html
+        - Bracket Pair Colorizer 
         - Color Picker
         - Git Blame
         - HTML BoilerPlate
@@ -44,6 +45,8 @@
 
 
 - Setup a Pro Vanilla JS Project (Virtually 99% of these topics are applicable to React Projects)
+
+    - How old school frontend building worked
     - What Git/GitHub is 
         - What Version Control is
         - GitHub
@@ -65,7 +68,6 @@
         - Babel Config
     - What WebPack is
         - What the DOM is
-        - How old school frontend building worked
         - Concept of Bundling
         - Installing WebPack
         - WebPack Config 
