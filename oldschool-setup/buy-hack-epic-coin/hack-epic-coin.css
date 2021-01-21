@@ -8,6 +8,7 @@ img#shopping-cart {
 
 #credit-card {
   display: none;
+  align-self: center;
 }
 
 input {
@@ -39,5 +40,4 @@ button:active {
 
 .floated {
   display: block;
-  
 }

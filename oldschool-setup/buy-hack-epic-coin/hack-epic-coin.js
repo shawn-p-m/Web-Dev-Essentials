@@ -14,7 +14,7 @@ function decrementCart() {
 function buyNow() {
     if (items > 0) {
 
-        document.getElementById('credit-card').style = "display:inherit";
+        document.getElementById('credit-card').style = "display:flex";
         document.getElementById('words').style = "display:none";
     }
 
@@ -24,8 +24,12 @@ function buyNow() {
 }
 
 function submitCard() {
+    if (document.getElementById('card-number').value > 400000000000000) {
 
-    alert("We got your card now sucker! <3")
-    alert("It's " + document.getElementById('card-number').value)
-    window.location.href = "../";
+        alert("We got your card now sucker! <3")
+        alert("It's " + document.getElementById('card-number').value)
+        window.location.href = "../";
+    } else {
+        alert("Enter more digits yo")
+    }
 }
