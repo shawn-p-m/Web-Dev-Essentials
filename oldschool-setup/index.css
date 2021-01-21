@@ -1,0 +1,59 @@
+body {
+  color: rgb(81, 180, 42);
+  background-color: rgb(23, 26, 22);
+  margin: 0px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  color: rgb(0, 234, 255);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(63, 173, 53),
+    rgb(23, 26, 22)
+  );
+}
+
+.navbar img {
+  width: 50px;
+  padding: 5px 20px;
+}
+
+.navbar li {
+  float: right;
+  margin-right: 100px;
+  padding-top: 10px;
+}
+
+.navbar li a {
+  display: block;
+  color: rgb(223, 223, 223);
+  text-align: center;
+  margin-top: auto;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.hero-section {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+}
+
+.hero-section img {
+  height: 300px;
+  width: 300px;
+}
+
+.hero-section .words {
+  padding: 0px 50px;
+}
