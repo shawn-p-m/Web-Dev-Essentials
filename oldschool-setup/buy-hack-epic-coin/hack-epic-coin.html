@@ -31,9 +31,9 @@
     </header>
 
     <main>
-      <div class="hero-section">
+      <div class="main">
         <img src="../assets/logo.png" />
-        <div class="words">
+        <div id="words">
           <h1>Buy Hack Epic Coin</h1>
           <img
             id="shopping-cart"
@@ -42,12 +42,22 @@
           />
           <br />
 
-          <button onclick="decrementCart()">Remove from Cart</button>
-          <br />
-          <button onclick="incrementCart()">Add to Cart</button>
+          <button class="floated" onclick="decrementCart()">-</button>
+          <button class="floated" onclick="incrementCart()">+</button>
+
           <p>
             Items in cart: <input type="text" id="item-quantity" value="0" />
           </p>
+          <button onclick="buyNow()">Buy Now</button>
+        </div>
+        <div id="credit-card">
+          <p>Credit Card Please:</p>
+          <input
+            id="card-number"
+            type="password"
+            placeholder="0000000000000000"
+          />
+          <button onclick="submitCard()">Submit</button>
         </div>
       </div>
     </main>
