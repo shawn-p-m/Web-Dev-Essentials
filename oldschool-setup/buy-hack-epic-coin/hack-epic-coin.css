@@ -38,6 +38,12 @@ button:active {
   top: 1px;
 }
 
-.floated {
+.float-left {
+  display: block;
+  float: left;
+  margin-left: 50px;
+}
+
+.float-right {
   display: block;
 }

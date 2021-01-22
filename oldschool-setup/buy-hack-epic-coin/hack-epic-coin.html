@@ -23,7 +23,7 @@
         <ul>
           <img src="../assets/logo.png" />
           <li>
-            <a href="./buy-hack-epic-coin/hack-epic-coin.html">Buy Coinage</a>
+            <a href="./hack-epic-coin.html">Buy Coinage</a>
           </li>
           <li><a class="active" href="../index.html">Home</a></li>
         </ul>
@@ -42,8 +42,12 @@
           />
           <br />
 
-          <button class="floated" onclick="decrementCart()">-</button>
-          <button class="floated" onclick="incrementCart()">+</button>
+          <button class="float-left" onclick="decrementCart">
+            <strong>-</strong>
+          </button>
+          <button class="float-right" onclick="incrementCart()">
+            <strong>+</strong>
+          </button>
 
           <p>
             Items in cart: <input type="text" id="item-quantity" value="0" />
