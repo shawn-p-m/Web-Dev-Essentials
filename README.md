@@ -80,7 +80,8 @@
         - Installing Prettier
         - Prettier Config
 
-
+- Extra
+    - What the bleep is AJAX?
 
 
 ## **Second Part - JS Specifics**
