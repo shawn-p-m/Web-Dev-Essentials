@@ -1,7 +1,12 @@
-# **Web-Dev-Essentials Crash Course**
+# **Web Dev Essentials Crash Course**
  This repo is for the UBCO Web Dev Month Workshop that covers JS and Project Setup
  This workshop covers all of the things I wish I learned when I first started web dev xD....
  This workshop focuses on Frontend development.
+
+## ** In Preparation of the Workshop **
+- Download and install VSCode
+- Download and install extensions specified below
+- Download and install Node
 
 
 ## **First Part - Project Setup**
@@ -25,10 +30,10 @@
         - The dist/build folder
         - Config files
 
-- Perfect Web Dev VSCode Setup
+- Web Dev VSCode Setup
     - Essential Extensions
         - Epic Colour Theme to match your personality
-        - Prettier &rightarrow; Auto formatting and syntax (caveat, you need to ask it to ignore JS and TS in VSCode Settings)
+        - Prettier &rightarrow; Auto formatting and syntax (caveat, sometimes on projects the extension can conflict with prettier dependencies in project)
         - ESLint &rightarrow; Syntactical and code structure enforcement
         - Auto Rename Tag &rightarrow; For html
         - Bracket Pair Colorizer 
