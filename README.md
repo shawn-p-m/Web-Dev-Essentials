@@ -80,7 +80,7 @@ This workshop focuses on Frontend development.
     - Package.json
     - Installing Dependencies
   - What Babel is - ES6+ - Installing Babel - Babel Config
-    -What Typescript is - makes JS more dynamically typed - converts to JS from TypeScript compiler itself
+    -What Typescript is - makes JS more statically typed - converts to JS from TypeScript compiler itself
   - What WebPack/gulp is
     - What the DOM is
     - Concept of Bundling
