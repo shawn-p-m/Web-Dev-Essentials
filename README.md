@@ -101,7 +101,7 @@ This workshop focuses on Frontend development.
   - What the bleep is AJAX?
     - AJAX is the act of sending http requests to a server without reloading your client webpage
     
-- Practice some JavaScript inside a real project!
+ ## **Practice some JavaScript inside a real project!**
   - CD into newschool-setup 
   - Open the folder of this cloned repository in VSCode
   - Use Git Bash terminal in VSCode (make sure it is the Git Bash terminal you are using)
