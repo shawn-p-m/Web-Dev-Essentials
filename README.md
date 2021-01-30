@@ -102,7 +102,6 @@ This workshop focuses on Frontend development.
     - AJAX is the act of sending http requests to a server without reloading your client webpage
     
  ## **Practice some JavaScript inside a real project!**
-  - CD into newschool-setup 
   - Open the folder of this cloned repository in VSCode
   - Use Git Bash terminal in VSCode (make sure it is the Git Bash terminal you are using)
   - CD into "newschool-setup" like so: `cd newschool-setup` in terminal
