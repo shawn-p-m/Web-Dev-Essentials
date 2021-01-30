@@ -6,14 +6,18 @@ This workshop focuses on Frontend development.
 
 ## **In Preparation of the Workshop**
 
-- Download and install VSCode (I highly recommend PyCharm over VSCode, comes with free Professional license for students)
-- Download and install the VSCode extensions specified below
-- Download and install Node
-- Download and install Git
+- Download and install VSCode (if on windows, tick open with code checkbox)
+  - Download the settings sync extension https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+  - Reload VSCode and download settings and extensions with the Gist: f066341271f17ac7b079ea9eba33be9b  (you will see a button)
+  
+- Download and install Node LTS https://nodejs.org/en/download/
+- Download and install Git https://git-scm.com/downloads
 - Read through the info below and Google things you don't know
 - Clone this repository to your machine with GitHub Desktop
-- Use Git Bash terminal in VSCode or on machine
-- Run `npm install` after CDing into "newschool-setup" in terminal (eg `cd newschool-setup`)
+- Open the folder of this cloned repository in VSCode
+- Use Git Bash terminal in VSCode (make sure it is the Git Bash terminal you are using)
+- CD into "newschool-setup" like so: `cd newschool-setup` in terminal
+- Run `npm install` in terminal 
 - Run `npm run serve` in terminal
 
 ## **First Part - Project Setup**
@@ -40,7 +44,7 @@ This workshop focuses on Frontend development.
 
 - Web Dev VSCode Setup
 
-  - Essential Extensions
+  - Essential Extensions (if you don't want to copy my VSCode settings)
     - Epic Colour Theme to match your personality
     - Prettier &rightarrow; Auto formatting and syntax (caveat, sometimes on projects the extension can conflict with prettier dependencies in project)
     - ESLint &rightarrow; Syntactical and code structure enforcement
@@ -58,7 +62,7 @@ This workshop focuses on Frontend development.
     - Path Intellisense
     - Visual Studio Intellicode
 
-- Set up a Pro Vanilla JS Project (Virtually 99% of these topics are applicable to React Projects)
+- Set up a Pro JS Project (Virtually 99% of these topics are applicable to React Projects)
 
   - How old school frontend building worked
   - Why Github?
@@ -96,3 +100,11 @@ This workshop focuses on Frontend development.
 - Extra
   - What the bleep is AJAX?
     - AJAX is the act of sending http requests to a server without reloading your client webpage
+    
+- Practice some JavaScript inside a real project!
+  - CD into newschool-setup 
+  - Open the folder of this cloned repository in VSCode
+  - Use Git Bash terminal in VSCode (make sure it is the Git Bash terminal you are using)
+  - CD into "newschool-setup" like so: `cd newschool-setup` in terminal
+  - Run `npm install` in terminal 
+  - Run `npm run serve` in terminal
