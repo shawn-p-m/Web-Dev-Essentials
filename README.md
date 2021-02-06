@@ -17,7 +17,6 @@ This workshop focuses on Frontend development.
 - Clone this repository to your machine with GitHub Desktop https://desktop.github.com/
 - Open the folder of this cloned repository in VSCode
 - Use Git Bash terminal in VSCode (make sure it is the Git Bash terminal you are using)
-- CD into "newschool-setup" like so: `cd newschool-setup` in terminal
 - Run `npm install` in terminal 
 - Run `npm run serve` in terminal
 
