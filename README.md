@@ -13,7 +13,7 @@ This workshop focuses on Frontend development.
 - Download and install Node LTS https://nodejs.org/en/download/
 - Download and install Git https://git-scm.com/downloads
 - Read through the info below and Google things you don't know
-- Clone this repository to your machine with GitHub Desktop
+- Clone this repository to your machine with GitHub Desktop https://desktop.github.com/
 - Open the folder of this cloned repository in VSCode
 - Use Git Bash terminal in VSCode (make sure it is the Git Bash terminal you are using)
 - CD into "newschool-setup" like so: `cd newschool-setup` in terminal
