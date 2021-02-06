@@ -1,24 +1,19 @@
 <template>
   <div id="function-buttons">
-    <v-row class="d-flex justify-space-around flex-wrap" style="height: 100px">
-      <v-btn width="120" :color="arrowButtonColor" @click=" arrow()">
-        Arrow
-      </v-btn>
-      <v-btn width="120" :color="mapButtonColor" @click=" map()"> Map </v-btn>
+    <v-row
+      class="d-flex flex-wrap"
+      style="margin-top: 40px; height: 100px; justify-content: space-evenly"
+    >
+      <v-btn width="120" :color="arrowButtonColor" @click="arrow()"> Arrow </v-btn>
+      <v-btn width="120" :color="mapButtonColor" @click="map()"> Map </v-btn>
       <v-btn width="120" :color="reduceButtonColor" @click="reduce()"> Reduce </v-btn>
     </v-row>
-    
+
     <v-row class="d-flex justify-space-around flex-wrap" style="height: 100px">
-      <v-btn width="120" :color="promiseButtonColor" @click=" promise()">
-        Promise
-      </v-btn>
+      <v-btn width="120" :color="promiseButtonColor" @click="promise()"> Promise </v-btn>
       <v-btn width="120" :color="spreadButtonColor" @click="spread()"> Spread </v-btn>
-      <v-btn width="120" :color="generatorButtonColor" @click="generator()">
-        Generator
-      </v-btn>
-      <v-btn width="120" :color="generatorButtonColor" @click="generator()">
-        Callback
-      </v-btn>
+      <v-btn width="120" :color="generatorButtonColor" @click="generator()"> Generator </v-btn>
+      <v-btn width="120" :color="callbackButtonColor" @click="callback()"> Callback </v-btn>
     </v-row>
   </div>
 </template>
@@ -31,6 +26,7 @@ import {
   promiseWithTitle,
   spreadedArray,
   generatorArray,
+  callbackAnswer,
 } from "@/mixins/specifics";
 import { mapGetters } from "vuex";
 //test
@@ -44,11 +40,18 @@ const giveSuccessOrError = (condition) => {
 export default {
   name: "FunctionButtons",
 
-  computed: mapGetters(["arrowButtonColor","mapButtonColor","reduceButtonColor", "promiseButtonColor", "spreadButtonColor", "generatorButtonColor"]),
+  computed: mapGetters([
+    "arrowButtonColor",
+    "mapButtonColor",
+    "reduceButtonColor",
+    "promiseButtonColor",
+    "spreadButtonColor",
+    "generatorButtonColor",
+    "callbackButtonColor",
+  ]),
   methods: {
     arrow() {
       this.$store.commit("saveArrowButtonColor", giveSuccessOrError(arrowGivesThree() === 3));
- 
     },
     map() {
       this.$store.commit(
@@ -66,7 +69,6 @@ export default {
             ])
         )
       );
-   
     },
     reduce() {
       this.$store.commit(
@@ -101,7 +103,12 @@ export default {
         "saveGeneratorButtonColor",
         giveSuccessOrError(JSON.stringify(generatorArray) === JSON.stringify([5, 15, 25, 7]))
       );
-      
+    },
+    callback() {
+      this.$store.commit(
+        "saveCallbackButtonColor",
+        giveSuccessOrError(JSON.stringify(callbackAnswer) === JSON.stringify(3))
+      );
     },
   },
 };

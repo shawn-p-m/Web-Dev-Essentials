@@ -13,6 +13,7 @@ export const store = new Vuex.Store({
     promiseButtonColor: "primary",
     spreadButtonColor: "primary",
     generatorButtonColor: "primary",
+    callbackButtonColor: "primary",
   },
   mutations: {
     saveArrowButtonColor(state, color) {
@@ -32,6 +33,32 @@ export const store = new Vuex.Store({
     },
     saveGeneratorButtonColor(state, color) {
       state.generatorButtonColor = color;
+    },
+    saveCallbackButtonColor(state, color) {
+      state.callbackButtonColor = color;
+    },
+  },
+  getters: {
+    arrowButtonColor: (state) => {
+      return state.arrowButtonColor;
+    },
+    mapButtonColor: (state) => {
+      return state.mapButtonColor;
+    },
+    reduceButtonColor: (state) => {
+      return state.reduceButtonColor;
+    },
+    promiseButtonColor: (state) => {
+      return state.promiseButtonColor;
+    },
+    spreadButtonColor: (state) => {
+      return state.spreadButtonColor;
+    },
+    generatorButtonColor: (state) => {
+      return state.generatorButtonColor;
+    },
+    callbackButtonColor: (state) => {
+      return state.callbackButtonColor;
     },
   },
   plugins: [createPersistedState()],
