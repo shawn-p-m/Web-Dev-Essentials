@@ -8,8 +8,8 @@ This workshop focuses on Frontend development.
 
 - Download and install VSCode (if on windows, tick open with code checkbox)
   - Download the settings sync extension https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
-  - Reload VSCode and download settings and extensions with the Gist: f066341271f17ac7b079ea9eba33be9b  (you will see a button that says "Download Public Gist")
-  - Go to settings in VSCode and search for "eol" Make sure end of line sequence is set to "\n" or LF and not CRLF, then restart VSCode
+  - Download settings and extensions with the Gist: f066341271f17ac7b079ea9eba33be9b  (you will see a button that says "Download Public Gist"), wait for full completion until a popup on the right comes up that asks you to reload vscode and apply changes.
+  - If eslint gets mad at you about "CR", just change CRLF to LF at the bottom of VSCode and the warnings will go away.
   
 - Download and install Node LTS https://nodejs.org/en/download/
 - Download and install Git https://git-scm.com/downloads
