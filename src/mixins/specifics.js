@@ -28,7 +28,25 @@ export const promiseWithTitle = new Promise((resolve) =>
 const arrayToSpread = [12, 7, 8, 2, 3, 1, 6, 3, 6, 2];
 export const spreadedArray = [12, 345, 345, 345, 345, ...arrayToSpread];
 
-/* Challenge 6 -> create a generator function that pushes the values 5,15, 25, 7 
+/* Challenge 6 -> create a generator function that pushes the values 5, 15, 25, 7 
  into the generatorArray by using the "next" function */
 let generatorArray = [];
 export { generatorArray };
+
+/* Definition: "A callback is a function passed as an argument to another function."(w3schools)
+   Why? We use callbacks to control the sequence of code that is executed
+   NOTE: Callbacks are functions passed as arguments to other functions
+*/
+
+/* Challenge 7 -> create a function called easyDivision that takes three arguments: (dividend, divisor,  dividerCallback). Then divide the dividend by the divisor, and send the quotient back as an argument of dividerCallback. 
+Next, make a function called theAnswer and pass (answer) as an argument, also return answer.
+*/
+const theAnswer = function () {
+  // accept answer as an argument and return it
+};
+export const easyDivision = function () {
+  //as easyDivision's argument,take dividend, divisor, dividerCallback
+  //return the dividend/divisor as an argument of the dividerCallback
+};
+
+export const callbackAnswer = easyDivision(9, 3, theAnswer);

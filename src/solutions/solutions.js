@@ -60,3 +60,17 @@ generatorArray.push(myGenerator.next().value);
 generatorArray.push(myGenerator.next().value);
 generatorArray.push(myGenerator.next().value);
 export { generatorArray };
+
+/* Definition: "A callback is a function passed as an argument to another function."(w3schools)
+   Why? We use callbacks to control the sequence of code that is executed*/
+/* Challenge 7 -> create a function called easyDivision that takes three arguments: (dividend, divisor,  myCallback). Then divide the divident by the divisor, and send the quotient back as an argument of myCallback. 
+Next, make a function called callbackAnswer and pass (theAnswer) as an argument, also return theAnswer. Next, call the easy division function and pass it (9,3, callbackAnswer) as arguments
+*/
+const theAnswer = function (theAnswer) {
+  return theAnswer;
+};
+export const easyDivision = function (dividend, divisor, dividerCallback) {
+  return dividerCallback(dividend / divisor);
+};
+
+export const callbackAnswer = easyDivision(9, 3, theAnswer);
