@@ -5,21 +5,29 @@
         <v-row>
           <v-col md="4"></v-col>
           <v-col md="4">
-            <img class="d-flex justify-center" alt="Vue logo" src="./assets/logo.png" />
+            <img
+              height="100"
+              class="d-flex justify-center rounded"
+              style="width: 100px"
+              alt="Vue logo"
+              src="./assets/logo.png"
+            />
           </v-col>
           <v-col md="4"></v-col>
         </v-row>
-        <v-row>
-          <v-col>
+        <v-row style="height: 100px;">
+        
             <v-dialog v-model="dialog" width="500">
-              <template v-slot:activator="{ on, attrs }">
+              <template style="height: 100px;" v-slot:activator="{ on, attrs }">
                 <v-btn class="d-flex justify-center" color="info" v-bind="attrs" v-on="on">
                   Instructions
                 </v-btn>
               </template>
 
               <v-card>
-                <v-card-title class="headline grey lighten-2"> Instructions </v-card-title>
+                <v-card-title class="headline grey lighten-2" >
+                  Instructions
+                </v-card-title>
 
                 <v-card-text
                   ><br />
@@ -31,11 +39,11 @@
 
                 <v-card-actions>
                   <v-spacer></v-spacer>
-                  <v-btn color="secondary" text @click="dialog = false"> Got it! 😎 </v-btn>
+                  <v-btn color="secondary" text @click="dialog = false"> Got it! ?? </v-btn>
                 </v-card-actions>
               </v-card>
             </v-dialog>
-          </v-col>
+
         </v-row>
         <FunctionButtons />
       </v-container>
