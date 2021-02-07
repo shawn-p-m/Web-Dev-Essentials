@@ -1,12 +1,12 @@
 # **Web Dev Essentials Crash Course**
 
-This repo is for the UBCO Web Dev Month Workshop that covers JS and Project Setup
-This workshop covers all the things I wish I learned when I first started web dev xD....
+This repo is for the UBCO Web Dev Month Workshop that covers JS and Project Setup. 
+This workshop covers all the things I wish I had learned when I first started web dev xD....
 This workshop focuses on Frontend development.
 
 ## **In Preparation of the Workshop**
 
-- Download and install VSCode (if on windows, tick open with code checkbox)
+- Download and install VSCode (if on Windows, tick open with code checkbox)
   - Download the settings sync extension https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
   - Download settings and extensions with the Gist: f066341271f17ac7b079ea9eba33be9b  (you will see a button that says "Download Public Gist"), wait for full completion until a popup on the right comes up that asks you to reload vscode and apply changes.
   - If eslint gets mad at you about "CR", just change CRLF to LF at the bottom of VSCode and the warnings will go away.
